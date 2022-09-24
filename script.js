@@ -1,5 +1,13 @@
 const quizData = [
   {
+    question: "Who is BLARD?",
+    a: "Data analyst",
+    b: "Project designer",
+    c: "Frontend web developer",
+    d: "Backend engineer",
+    correct: "c",
+  },
+  {
     question: "Which language runs in a web browser?",
     a: "Java",
     b: "C",
@@ -31,6 +39,47 @@ const quizData = [
     d: "none of the above",
     correct: "b",
   },
+  {
+    question: "The following are programming language EXCEPT",
+    a: "CSS",
+    b: "C",
+    c: "JAVA",
+    d: "PHP",
+    correct: "a",
+  },
+  {
+    question: "How do you create a function in Javascript?",
+    a: "function myFunction()",
+    b: "function = myFunction",
+    c: "function()",
+    d: "function:myFunction()",
+    correct: "a",
+  },
+  {
+    question: "Which of this is a CSS framework?",
+    a: "C++",
+    b: "Typescript",
+    c: "Tailwind",
+    d: "Vue",
+    correct: "c",
+  },
+  {
+    question: "UI means User Interface, while UX means ...",
+    a: "User expression",
+    b: "User Experience",
+    c: "User Enjoyment",
+    d: "none of the above",
+    correct: "b",
+  },
+  {
+    question: "What is the meaning of DOM?",
+    a: "Development Object modelling",
+    b: "Display Object modelling",
+    c: "Document Operation Model",
+    d: "Document Object Model",
+    correct: "d",
+  },
+
 ];
 
 const quiz = document.getElementById("quiz");
