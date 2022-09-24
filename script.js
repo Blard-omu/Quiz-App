@@ -138,7 +138,7 @@ submitBtn.addEventListener("click", () => {
       loadQuiz();
     } else {
         quiz.innerHTML = `
-                <p> Thank you <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="20px" height="20px"</p>
+                <p>Well done <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="20px" height="20px"</p>
 </p>
                 <h2>You answered ${score}/${quizData.length} questions correctly</h2>
                 <button onclick="location.reload()">Reload</button>
